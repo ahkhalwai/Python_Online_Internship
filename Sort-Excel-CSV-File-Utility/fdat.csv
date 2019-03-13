@@ -1,0 +1,11 @@
+,Country,Age,Salary,Purchased
+1,Spain,27.0,48000.0,Yes
+3,Spain,38.0,61000.0,No
+6,Spain,,52000.0,No
+2,Germany,30.0,54000.0,No
+4,Germany,40.0,,Yes
+8,Germany,50.0,83000.0,No
+0,France,44.0,72000.0,No
+5,France,35.0,58000.0,Yes
+7,France,48.0,79000.0,Yes
+9,France,37.0,67000.0,Yes
