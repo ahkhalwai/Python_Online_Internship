@@ -25,4 +25,4 @@ sorting based on a particular field
 however many times the user decides. The code should record the outcomes 
 and count the number of tails and heads 
 
-![Python Intern](https://github.com/ahkhalwai/Python_Online_Internship/blob/master/Python%20Intern.jpeg)
+            ![Python Intern](https://github.com/ahkhalwai/Python_Online_Internship/blob/master/Python%20Intern.jpeg)
