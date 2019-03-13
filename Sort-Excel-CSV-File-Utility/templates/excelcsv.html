@@ -1,0 +1,108 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron text-centre">
+<h1>Excel/CSV</h1>
+     <p>   </p>
+   <p>   </p>
+   <p>   </p>
+     <p>   </p>
+   <p>   </p>
+   <p>   </p>
+  <p> CSV file for the Ascending </p>
+
+ <html>
+ <head>
+	<title>Upload</title>
+ </head>
+  <body>
+  <p>   </p>
+   <p>   </p>
+   <p>   </p>
+   <form method="POST" enctype="multipart/form-data" action="http://localhost:5000/uploader">
+        <p>   </p>
+       <input type="file" name="file">
+        <p>   </p>
+       <input type="submit" style="Blue">  <input type="submit" formaction="http://localhost:5000/nrows">
+        <p>   </p>
+   </form>
+  </body>
+ </html>
+
+ <p>   </p>
+   <p>   </p>
+   <p>   </p>
+  <p> CSV file for the Decending  </p>
+ <p>   </p>
+   <p>   </p>
+   <p>   </p>
+<html>
+ <head>
+	<title>Upload</title>
+ </head>
+  <body>
+  <p>   </p>
+   <p>   </p>
+   <p>   </p>
+   <form method="POST" enctype="multipart/form-data" action="http://localhost:5000/decending">
+       <p>   </p>
+       <input type="file" name="file">
+       <p>   </p>
+       <input type="submit">
+        <p>   </p>
+   </form>
+  </body>
+ </html>
+
+ <p>   </p>
+   <p>   </p>
+   <p>   </p>
+  <p> Excel file for the Ascending  </p>
+ <p>   </p>
+   <p>   </p>
+   <p>   </p>
+<html>
+ <head>
+	<title>Upload</title>
+ </head>
+  <body>
+  <p>   </p>
+   <p>   </p>
+   <p>   </p>
+   <form method="POST" enctype="multipart/form-data" action="http://localhost:5000/excelasc">
+       <p>   </p>
+       <input type="file" name="file">
+       <p>   </p>
+       <input type="submit">
+        <p>   </p>
+   </form>
+  </body>
+ </html>
+
+
+<p>   </p>
+   <p>   </p>
+   <p>   </p>
+  <p> Excel file for the Decending  </p>
+ <p>   </p>
+   <p>   </p>
+   <p>   </p>
+<html>
+ <head>
+	<title>Upload</title>
+ </head>
+  <body>
+  <p>   </p>
+   <p>   </p>
+   <p>   </p>
+   <form method="POST" enctype="multipart/form-data" action="http://localhost:5000/exceldec">
+       <p>   </p>
+       <input type="file" name="file">
+       <p>   </p>
+       <input type="submit">
+        <p>   </p>
+   </form>
+  </body>
+ </html>
+</div>
+{% endblock %}
