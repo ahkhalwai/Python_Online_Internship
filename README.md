@@ -24,3 +24,5 @@ sorting based on a particular field
 4.  Coin Flip Simulation - Write some code that simulates flipping a single coin 
 however many times the user decides. The code should record the outcomes 
 and count the number of tails and heads 
+
+![Python Intern](https://github.com/ahkhalwai/Python_Online_Internship/blob/master/Python%20Intern.jpeg)
